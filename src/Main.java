@@ -25,7 +25,7 @@ public class Main {
 
         //EXPLAINS HOW DAMAGE WORKS
         System.out.println("\nThe attack damage is based on the other player's level.");
-        System.out.println("Random dmg 1-200 divided by other player's level\n");
+        System.out.println("Random dmg 1-100 divided by other player's level\n");
 
 
         // Athena attackerar Ares
@@ -48,10 +48,6 @@ public class Main {
         health -= damageDone;
         return Math.max(health, 0);
     }
-
-
-
-
 
 }
 
