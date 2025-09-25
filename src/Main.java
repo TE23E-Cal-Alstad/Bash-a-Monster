@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Random dmg 1-100 divided by other player's level\n");
 
 
-        // Athena attackerar Ares
+        // Athena Attackerar Ares
         System.out.println(myHero.name + " attacks " + myMonster.name + "!");
         System.out.println(myHero.damage + " Basedamage");
         myMonster.health = standardAttack(myHero.damage, myMonster.health, myMonster.level);
