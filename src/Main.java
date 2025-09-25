@@ -13,7 +13,7 @@ public class Main {
         myHero.level = (randomGenerator.nextInt(2, 10));
         myHero.damage = (randomGenerator.nextInt(25, 100));
 
-        Hero myMonster = new Hero();
+        Monster0 myMonster = new Monster0();
         myMonster.name = "Ares";
         myMonster.health = 100;
         myMonster.level = (randomGenerator.nextInt(2, 10));
